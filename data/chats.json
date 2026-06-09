@@ -1,0 +1,72 @@
+[
+  {
+    "id": "chat_001",
+    "timestamp": "2024-06-09T08:15:00",
+    "agent": "Alice",
+    "message": "Payment gateway is down. Multiple customers reporting failed transactions. Ticket raised.",
+    "tags": ["payment", "outage", "critical"]
+  },
+  {
+    "id": "chat_002",
+    "timestamp": "2024-06-09T08:45:00",
+    "agent": "Bob",
+    "message": "Login service throwing 503 errors intermittently for EU region users.",
+    "tags": ["login", "503", "eu-region"]
+  },
+  {
+    "id": "chat_003",
+    "timestamp": "2024-06-09T09:10:00",
+    "agent": "Alice",
+    "message": "Payment gateway issue persists. Escalated to infra team. ETA unknown.",
+    "tags": ["payment", "outage", "escalated"]
+  },
+  {
+    "id": "chat_004",
+    "timestamp": "2024-06-09T09:30:00",
+    "agent": "Charlie",
+    "message": "Dashboard loading slow for enterprise accounts. Avg load time 12s instead of 2s.",
+    "tags": ["dashboard", "performance", "enterprise"]
+  },
+  {
+    "id": "chat_005",
+    "timestamp": "2024-06-09T10:00:00",
+    "agent": "Bob",
+    "message": "EU login 503 errors resolved after pod restart. Monitoring for recurrence.",
+    "tags": ["login", "resolved", "eu-region"]
+  },
+  {
+    "id": "chat_006",
+    "timestamp": "2024-06-09T10:30:00",
+    "agent": "Charlie",
+    "message": "Email notification service delayed by ~45 minutes. Backlog of 2000 unsent emails.",
+    "tags": ["email", "delay", "backlog"]
+  },
+  {
+    "id": "chat_007",
+    "timestamp": "2024-06-09T11:00:00",
+    "agent": "Alice",
+    "message": "Payment gateway partially restored. Transactions succeeding at 70%. Team still working.",
+    "tags": ["payment", "partial-fix", "ongoing"]
+  },
+  {
+    "id": "chat_008",
+    "timestamp": "2024-06-09T11:30:00",
+    "agent": "Diana",
+    "message": "New issue: SSL certificate expiring in 3 days for api.company.com. Needs urgent renewal.",
+    "tags": ["ssl", "certificate", "expiry", "urgent"]
+  },
+  {
+    "id": "chat_009",
+    "timestamp": "2024-06-09T12:00:00",
+    "agent": "Bob",
+    "message": "Dashboard slowness traced to missing DB index. Fix deployed, load time back to 2s.",
+    "tags": ["dashboard", "resolved", "db-index"]
+  },
+  {
+    "id": "chat_010",
+    "timestamp": "2024-06-09T12:30:00",
+    "agent": "Diana",
+    "message": "Mobile app crashing on Android 14 devices after latest update. 50+ user reports.",
+    "tags": ["mobile", "android", "crash", "regression"]
+  }
+]

@@ -1,0 +1,11 @@
+ticket_id,title,description,status,assigned_to,created_at,updated_at,sla_hours,category
+TKT-1001,Payment gateway outage,Customers unable to complete transactions. Revenue impact high.,Open,Alice,2024-06-09 08:10:00,2024-06-09 11:00:00,4,Payment
+TKT-1002,Login 503 EU region,Intermittent 503 errors on login service for EU users.,Resolved,Bob,2024-06-09 08:40:00,2024-06-09 10:05:00,8,Authentication
+TKT-1003,Dashboard performance degradation,Enterprise dashboard loading in 12 seconds. SLA breach imminent.,Resolved,Charlie,2024-06-09 09:25:00,2024-06-09 12:10:00,6,Performance
+TKT-1004,Email notification backlog,Email service delayed. ~2000 emails queued. Customers not receiving alerts.,Open,Charlie,2024-06-09 10:25:00,2024-06-09 10:25:00,12,Notifications
+TKT-1005,SSL certificate expiry warning,api.company.com SSL cert expires in 3 days. Requires immediate renewal.,Open,Diana,2024-06-09 11:25:00,2024-06-09 11:25:00,24,Security
+TKT-1006,Android 14 app crash,Mobile app crashes on launch for Android 14 users after v3.2.1 update.,Open,Diana,2024-06-09 12:25:00,2024-06-09 12:25:00,8,Mobile
+TKT-1007,Payment gateway down,Users cannot pay. Multiple failed transaction reports coming in.,Open,Alice,2024-06-09 08:20:00,2024-06-09 11:05:00,4,Payment
+TKT-1008,API rate limit errors,Some enterprise clients hitting 429 rate limit errors on bulk import API.,Open,Bob,2024-06-09 11:50:00,2024-06-09 11:50:00,12,API
+TKT-1009,Database backup failure,Nightly DB backup job failed silently. Last successful backup 36hrs ago.,Open,Charlie,2024-06-09 07:00:00,2024-06-09 07:00:00,6,Infrastructure
+TKT-1010,Two-factor auth not sending SMS,Users report 2FA SMS codes not arriving. Affects ~15% of logins.,Open,Bob,2024-06-09 12:00:00,2024-06-09 12:00:00,8,Authentication
